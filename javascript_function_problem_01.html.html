@@ -1,0 +1,44 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <script type="text/javascript">
+
+       function average(javascript, python, java, ruby, swift) {
+           var avg = 0;
+           avg = (javascript + python + java + ruby + swift)/5;
+           return avg;
+       }
+
+       function max(javascript, python, java, ruby, swift) {
+           var max = 100;
+           max=javascript;
+
+           if(max<python) max=python;
+           if(max<java) max=java;
+           if(max<ruby) max=ruby;
+           if(max<swift) max=swift;
+
+           return(max);
+       }
+
+       function min(javascript, python, java, ruby, swift) {
+           var min = 0;
+           min=javascript;
+
+           if(min>python) min=python;
+           if(min>java) min=java;
+           if(min>ruby) min=ruby;
+           if(min>swift) min=swift;
+
+           return(min);
+       }
+
+       console.log('A 학생의 평균 점수는 ' + average(90, 80, 50, 40, 10) + ' , 최고 점수는 ' + max(90, 80, 50, 40, 10) + ' , 최하 점수는 ' + min(90, 80, 50, 40, 10) + ' 입니다.');
+       console.log('B 학생의 평균 점수는 ' + average(90, 30, 100, 50, 50) + ' , 최고 점수는 ' + max(90, 30, 100, 50, 50) + ' , 최하 점수는 ' + min(90, 30, 100, 50, 50) + ' 입니다.');
+       console.log('C 학생의 평균 점수는 ' + average(20, 30, 60, 50, 20) + ' , 최고 점수는 ' + max(20, 30, 60, 50, 20) + ' , 최하 점수는 ' + min(20, 30, 60, 50, 20) + ' 입니다.');
+
+    </script>
+</head>
+<body>
+</body>
+</html>
